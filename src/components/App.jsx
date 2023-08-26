@@ -1,7 +1,7 @@
 // App.jsx
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux'; 
-import { fetchContacts } from '../contactsSlice'; 
+import { fetchContacts } from '../redux/contactsSlice'; 
 import ContactForm from './ContactForm';
 import ContactList from './ContactList';
 import Filter from './Filter';
